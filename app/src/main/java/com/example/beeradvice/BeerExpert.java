@@ -16,6 +16,7 @@ public class BeerExpert {
         recommendations.put("amber",new String[]{"Rogue","Abita","Red Moose"});
         recommendations.put("brown",new String[]{"Newcastle Brown Ale","Cigar City Brewing"});
         recommendations.put("dark",new String[]{"Dunkel","Extra Stout"});
+        recommendations.put("artesanal",new String[]{"Cerveza Artesanal 1","BBC Artesanal","Otra artesanal"});
     }
 
     public String getBrands(String beer_color){
